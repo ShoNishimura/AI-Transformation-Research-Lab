@@ -19,13 +19,12 @@
 
 ## Research Process
 
-1. Research Questionを設定する
-2. 公式情報を確認する
-3. 仮説を立てる
-4. 実機で検証する
-5. 結果を評価する
-6. 実務へ適用する
-7. 公開可能な形へ一般化する
+1. Research Question設定
+2. 公式情報確認
+3. 仮説および実機検証
+4. 知識を体系化
+6. 業務適用
+7. 公開可能な形へ一般化
 
 ## Repository Structure
 
