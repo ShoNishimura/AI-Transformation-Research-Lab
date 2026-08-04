@@ -28,10 +28,15 @@
 
 ## Repository Structure
 
-- `research/`：Research Questionと検証結果
-- `templates/`：評価表・ログ・チェックリスト
-- `docs/`：公開可能な知識・ガイド
-- `samples/`：サンプルコード・架空データ
+Repository
+    │
+    ├── README
+    ├── Charter
+    ├── Standards
+    ├── ADR
+    ├── Issues (RQ)
+    ├── Projects
+    └── Handbook
 
 ## Current Research Questions
 
