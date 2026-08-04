@@ -91,7 +91,9 @@ Evidenceは、Microsoft公式情報、実機検証、コミュニティ情報な
 Evidenceを取得・確認した日付を記録する。
 
 日付は日本標準時（JST）を基準とし、
+
 ISO 8601形式（YYYY-MM-DD）で記載する。
+
 ---
 
 ## Reliability
