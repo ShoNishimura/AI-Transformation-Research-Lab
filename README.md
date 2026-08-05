@@ -1,6 +1,7 @@
-# AI-Transformation-Handbook
+# AI Transformation Research Lab
 
-> **公式情報と再現可能な実験に基づき、Microsoft 365 Copilot の知見を体系化する Research Lab**
+> 公式情報と再現可能な実験に基づき、
+> Microsoft 365 Copilot の知見を体系化する Research Lab
 
 ---
 
