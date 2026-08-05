@@ -36,7 +36,7 @@ Research Lab における用語の定義を統一し、ドキュメント間の�
 
 | 用語 | 英語 | 定義 |
 |------|------|------|
-| Research Lab | Research Lab | Microsoft 365 Copilot に関する知見を、公式情報と再現可能な実験に基づいて蓄積・管理する研究環境。 |
+| Research Lab | Research Lab | Microsoft 365 Copilot に関する知見を、公式情報と再現可能な実験に基づいて蓄積・体系化する研究環境。 |
 | Research Tenant | Research Tenant | Research Lab 専用に構築した Microsoft 365 テナント。 |
 | 研究課題 | Research Question | 検証対象となる研究テーマ。RQ-XXXで管理する。 |
 | エビデンス | Evidence | 研究課題を裏付ける根拠。E-XXXで管理する。 |
@@ -46,8 +46,8 @@ Research Lab における用語の定義を統一し、ドキュメント間の�
 | マイルストーン | Milestone | Research Lab の重要な到達点。 |
 | Microsoft Graph | Microsoft Graph | Microsoft 365 データへアクセスするための Microsoft の API およびサービス。 |
 | Copilot Memory | Copilot Memory | Microsoft 365 Copilot が保存・利用するユーザー情報。 |
-| Chat History | Chat History | Microsoft 365 Copilot におけるチャット履歴。 |
-| Grounding | Grounding | Copilot が回答生成時に参照する情報源を基に回答を生成する仕組み。 |
+| チャット履歴 | Chat History | Microsoft 365 Copilot におけるチャット履歴。 |
+| Grounding | Grounding | Copilot が利用可能なコンテキストを基に回答を生成する仕組み。 |
 
 ---
 
