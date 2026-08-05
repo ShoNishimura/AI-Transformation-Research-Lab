@@ -10,7 +10,9 @@
 
 Research Lab では、Microsoft 365 Copilot を中心とした AI 活用に関する知見を、**公式情報**と**再現可能な実験**に基づいて蓄積・検証・体系化します。
 
-研究は、Research Question（RQ）を起点として、Evidence（E）、Experiment、Verification を通じて知識を構築し、その成果を Handbook として体系化します。
+研究は、Research Question（RQ）を起点として、Evidence（E）、Experiment、Verification を通じて進められます。
+
+検証によって得られた知見は、Handbook として体系化・蓄積します。
 
 ---
 
@@ -111,7 +113,7 @@ Research Lab は、以下の標準に従って運営します。
 
 # 研究プロセス
 
-Research Lab は、以下のプロセスに従って研究を進めます。
+Research Lab における研究は、以下のプロセスに従って進めます。
 
 ```text
 Research Question
