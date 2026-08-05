@@ -2,8 +2,6 @@
 
 Version: 1.0
 
-Status: Reviewed
-
 ---
 
 ## 公開元（Source）
