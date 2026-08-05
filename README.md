@@ -1,6 +1,6 @@
 # AI Transformation Research Lab
 
-> **Microsoft 365 Copilot を中心とした AI 活用の研究・検証・知識体系化を行う Research Lab**
+> **Microsoft 365 Copilot を中心とした AI 活用を、公式情報と再現可能な実験に基づいて研究・体系化する Research Lab**
 
 ---
 
