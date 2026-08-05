@@ -1,4 +1,4 @@
-# E-XXX タイトル
+# E-XXX エビデンスタイトル
 
 Version: 1.0
 
@@ -6,27 +6,15 @@ Status: Reviewed
 
 ---
 
-## ソース
-
-資料の公開元
-
-例
-
-- Microsoft Support
-- Microsoft Learn
-- Microsoft Tech Community
+## 公開元（Source）
 
 ---
 
-## タイトル
-
-資料の正式名称
+## 資料タイトル
 
 ---
 
 ## URL
-
-資料のURL（一次情報を優先）
 
 ---
 
@@ -38,17 +26,11 @@ YYYY-MM-DD（日本時間）
 
 ## 信頼性
 
-| 評価 | 基準 |
-|------|------|
-| A | Microsoft公式・査読論文・国際標準 |
-| B | 専門企業・著名コミュニティ |
-| C | 個人ブログ・SNS等 |
+A（Microsoft公式）
 
 ---
 
 ## 要約
-
-資料全体の概要を簡潔にまとめる。
 
 ---
 
@@ -64,29 +46,25 @@ YYYY-MM-DD（日本時間）
 
 - 仮説を支持する
 - 仮説を修正する
-- 新たな検証項目を追加する
+- 新しいResearch Questionを追加する
 - 影響なし
 
 ---
 
-## 関連情報
+## 関連資料
 
-### 関連Research Question
+### 関連RQ
 
-- RQ-001
+-
 
 ### 関連Evidence
 
-- E-002
+-
 
-### 関連資料
+### 関連Microsoft公式資料
 
-- Microsoft Learn
-- Microsoft Support
-- その他
+-
 
 ---
 
 ## 備考
-
-必要に応じて補足事項を記載する。
