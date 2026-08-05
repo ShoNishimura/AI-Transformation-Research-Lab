@@ -54,9 +54,12 @@ Research Lab におけるドキュメントの一貫性、可読性および保�
 例
 
 - README.md
-- HANDBOOK.md
+- GLOSSARY.md
 - MILESTONES.md
-- RLS-001-Evidence-Card-Standard.md
+- RLS-000-Documentation.md
+- RLS-001-Evidence.md
+- RLS-002-Research-Process.md
+- RLS-003-Research-Environment.md
 - LAB-001-Research-Environment-Setup.md
 
 ---
