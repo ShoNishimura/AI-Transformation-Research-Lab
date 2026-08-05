@@ -1,15 +1,14 @@
 # AI Transformation Research Lab
 
-> 公式情報と再現可能な実験に基づき、
-> Microsoft 365 Copilot の知見を体系化する Research Lab
+> **公式情報と再現可能な実験に基づき、Microsoft 365 Copilot の知見を体系化する Research Lab**
 
 ---
 
 # Research Lab とは
 
-AI-Transformation-Handbook は、Microsoft 365 Copilot を中心とした AI 活用に関する知見を、公式情報と再現可能な実験に基づいて蓄積・体系化する Research Lab です。
+AI Transformation Research Lab は、Microsoft 365 Copilot を中心とした AI 活用に関する知見を、公式情報と再現可能な実験に基づいて蓄積・検証・体系化する研究リポジトリです。
 
-本リポジトリでは、Research Question（RQ）を起点として、Evidence（E）、Experiment、Verification を通じて知識を構築し、Handbook として継続的に蓄積します。
+本リポジトリでは、Research Question（RQ）を起点として、Evidence（E）、Experiment、Verification を通じて知識を構築し、その成果を Handbook として体系化します。
 
 ---
 
@@ -32,13 +31,13 @@ docs/
 ├── charter/      # Research Lab の理念
 ├── glossary/     # 用語集
 ├── handbook/     # Handbook・LAB・Milestones
-├── standards/    # Research Lab Standards
+├── standards/    # Research Lab 標準
 └── templates/    # 各種テンプレート
 ```
 
 ---
 
-# Architecture
+# アーキテクチャ
 
 Research Lab は、役割ごとにドキュメントを分離して管理します。
 
@@ -95,7 +94,7 @@ LAB-001-Research-Environment-Setup.md
 
 ---
 
-# Research Lab Standards
+# Research Lab 標準
 
 Research Lab は、以下の標準に従って運営します。
 
@@ -108,9 +107,9 @@ Research Lab は、以下の標準に従って運営します。
 
 ---
 
-# Research Lifecycle
+# 研究プロセス
 
-Research Lab は、以下のライフサイクルに従って研究を進めます。
+Research Lab は、以下のプロセスに従って研究を進めます。
 
 ```text
 Research Question
@@ -141,7 +140,7 @@ Research Lab は、次の原則に基づいて運営します。
 - 可能な限り一次情報を参照する
 - 実験は再現可能であることを前提とする
 - エビデンスに基づいて結論を導く
-- 得られた知見は Handbook として蓄積する
+- 得られた知見は Handbook として体系化する
 
 ---
 
