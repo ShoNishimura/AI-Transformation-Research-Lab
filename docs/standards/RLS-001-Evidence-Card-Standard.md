@@ -71,7 +71,9 @@ Research Lab におけるエビデンスの収集、評価および管理方法�
 
 ## 7. テンプレート
 
-エビデンスの記録には、以下のテンプレートを使用する。
+エビデンスは、Research Lab が定めるテンプレートを使用して記録する。
+
+使用するテンプレート
 
 - `docs/templates/Evidence-Card-Template.md`
 
