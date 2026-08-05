@@ -1,209 +1,144 @@
-# RLS-001 Evidence Card Standard
+# RLS-001 エビデンスカード標準
 
-- **Document ID**: RLS-001
-- **Version**: 1.0
-- **Status**: Approved
-- **Owner**: AI Transformation Research Lab
-- **Last Updated**: 2026-08-05
+Version: 1.0
+
+Status: Approved
 
 ---
 
-# 1. Purpose
+## 1. 目的
 
-本標準は、Research Question (RQ) を支えるEvidence（根拠）の記録方法を統一することを目的とする。
-
-Evidenceは、Microsoft公式情報、実機検証、コミュニティ情報などを一貫した形式で記録し、Research Lab全体で再利用できる知識資産とする。
+Research Lab におけるエビデンスの収集、評価および管理方法を標準化し、
+研究結果の再現性および信頼性を確保する。
 
 ---
 
-# 2. Scope
+## 2. 適用範囲
 
-本標準は、すべてのResearch Question (RQ) に適用する。
+本規約は、Research Lab で管理するすべてのエビデンスに適用する。
 
-対象とするEvidenceは以下を含む。
+対象例
 
-- Microsoft Docs
 - Microsoft Learn
 - Microsoft Support
-- Microsoft Build / Ignite
-- Microsoft公式ブログ
-- Microsoft公式動画
-- 実機検証
-- Community記事（Zenn, Qiita等）
-- AIによる補助的な説明
+- Microsoft Docs
+- Microsoft Tech Community
+- GitHub
+- 学術論文
+- 動画
+- 実機検証結果
+- コミュニティ資料
 
 ---
 
-# 3. Evidence Card Template
+## 3. エビデンスカード
 
-```markdown
-## E-XXX
+エビデンスは Evidence Card として記録する。
 
-### Source
+最低限、以下の項目を含める。
 
-### Title
-
-### URL
-
-### Retrieved
-
-### Reliability
-
-### Key Point
-
-### Impact
-```
+|項目|内容|
+|----|----|
+|ID|E-001 など|
+|タイトル|資料名|
+|ソース|公開元|
+|URL|参照先|
+|取得日|取得日|
+|信頼性|評価|
+|要約|重要ポイント|
+|研究への影響|RQへの影響|
 
 ---
 
-# 4. Field Definitions
+## 4. 記述ルール
 
-## Source
+### 4.1 ID
 
-情報源。
+ID は E-001 形式とする。
+
+番号は再利用しない。
+
+---
+
+### 4.2 タイトル
+
+タイトルは資料の正式名称を使用する。
+
+---
+
+### 4.3 ソース
+
+公開元を記載する。
 
 例
 
-- Microsoft Docs
-- Microsoft Learn
 - Microsoft Support
-- Microsoft Build
-- Practical Verification
+- Microsoft Learn
+- Microsoft Tech Community
 
 ---
 
-## Title
+### 4.4 URL
 
-ページまたは資料の正式名称。
+参照した URL を記録する。
 
----
-
-## URL
-
-参照元URL。
-
-実機検証の場合は「N/A」とする。
+可能な限り一次情報を使用する。
 
 ---
 
-## Retrieved
+### 4.5 取得日
 
-Evidenceを取得・確認した日付を記録する。
+取得日は日本時間で記録する。
 
-日付は日本標準時（JST）を基準とし、
+形式
 
-ISO 8601形式（YYYY-MM-DD）で記載する。
-
----
-
-## Reliability
-
-情報の信頼度。
-
-| Level | Description |
-|--------|-------------|
-| A | Microsoft Official Documentation / Product Behavior |
-| B | Microsoft Learn |
-| C | Microsoft Official Blog / Microsoft Build / Ignite |
-| D | Practical Verification |
-| E | Community |
-| F | AI-generated explanation |
+YYYY-MM-DD
 
 ---
 
-## Key Point
+### 4.6 信頼性
 
-**事実のみ**を記載する。
+以下の基準で評価する。
 
-記載してよい内容
-
-- Microsoftが明示している仕様
-- 実機で確認できた事実
-- ページに書かれている内容
-
-記載しない内容
-
-- 推測
-- 考察
-- 意見
+|評価|基準|
+|----|----|
+|A|Microsoft公式・国際標準・査読論文|
+|B|専門企業・著名コミュニティ|
+|C|個人ブログ・SNS等|
 
 ---
 
-## Impact
+### 4.7 要約
 
-Research Questionへの影響を記載する。
+研究に必要な内容のみを簡潔にまとめる。
+
+引用ではなく要約を基本とする。
+
+---
+
+### 4.8 研究への影響
+
+研究課題（RQ）への影響を明記する。
 
 例
 
 - 仮説を支持する
-- 仮説を修正する必要がある
-- 新たな検証項目が見つかった
-
-ここでは考察を書いてよい。
+- 仮説を修正する
+- 新たな検証項目を追加する
 
 ---
 
-# 5. Writing Rules
+## 5. 運用ルール
 
-Evidence Cardは
-
-- 短く
-- 客観的に
-- 再利用可能に
-
-記述する。
+- エビデンスは一意の ID で管理する。
+- 同一資料を重複登録しない。
+- RQ から参照可能な状態とする。
+- 新たな知見が得られた場合は、必要に応じて RQ を更新する。
 
 ---
 
-# 6. Principles
+## 6. 改訂
 
-Evidence Cardは
+改訂履歴は GitHub の変更履歴を正本とする。
 
-「事実」と「解釈」を明確に分離する。
-
-Key Pointには事実のみを書く。
-
-ImpactにはResearch Questionへの影響を書く。
-
----
-
-# 7. Example
-
-## E-001
-
-### Source
-
-Microsoft Support
-
-### Title
-
-How Microsoft 365 Copilot Chat history works
-
-### URL
-
-https://support.microsoft.com/
-
-### Retrieved
-
-2026-08-05
-
-### Reliability
-
-A (Microsoft Official)
-
-### Key Point
-
-- Copilot Chatはチャット履歴を保持する。
-- 応答生成時に履歴を利用する場合がある。
-
-### Impact
-
-RQ-001では、新しいチャットでも履歴が推論に利用される可能性を考慮する必要がある。
-
----
-
-# 8. Revision History
-
-| Version | Date | Description |
-|----------|------|-------------|
-| 1.0 | 2026-08-05 | Initial Release |
+本規約の改訂は Research Lab の合意のもとで実施する。
