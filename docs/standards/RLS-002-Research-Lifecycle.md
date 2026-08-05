@@ -1,246 +1,138 @@
-# RLS-002 Research Lifecycle
+# RLS-002 研究ライフサイクル
 
-- **Document ID**: RLS-002
-- **Version**: 1.0
-- **Status**: Approved
-- **Owner**: AI Transformation Research Lab
-- **Last Updated**: 2026-08-05
+Version: 1.0
+
+Status: Approved
 
 ---
 
-# 1. Purpose
+## 1. 目的
 
-本標準は、Research Question（RQ）のライフサイクルを定義し、
-Research Labにおける調査・検証・知識化・実務適用・公開までの
-一貫したプロセスを標準化することを目的とする。
+Research Lab における研究活動の進め方を標準化し、再現性、一貫性および継続的な知識蓄積を実現する。
 
 ---
 
-# 2. Scope
+## 2. 適用範囲
 
-本標準は、すべてのResearch Question（RQ）に適用する。
+本規約は、Research Lab リポジトリで実施するすべての研究活動に適用する。
 
----
+対象例
 
-# 3. Lifecycle
-
-すべてのResearch Questionは、以下のライフサイクルに従う。
-
-```
-
-Draft RQ
-↓
-
-Official Research
-↓
-
-Verification
-
-↓
-
-Handbook
-
-↓
-
-Business Applied
-
-↓
-
-Published
-
-```
+- Research Question（RQ）
+- Evidence（E）
+- Experiment
+- Verification
+- Handbook
+- LAB
+- Milestones
 
 ---
 
-# 4. Stage Definitions
+## 3. 研究ライフサイクル
 
-## ① Draft RQ
+Research Lab の研究は、以下のライフサイクルに従って実施する。
 
-### Purpose
-
-研究テーマ（Research Question）を定義する。
-
-### Activities
-
-- GitHub Issueを作成
-- 背景を整理
-- 仮説を作成
-- 検証項目を整理
-
-### Exit Criteria
-
-Issueが作成され、
-調査対象が明確になっていること。
+1. 研究課題（Research Question）
+2. エビデンス収集（Evidence）
+3. 実験（Experiment）
+4. 検証（Verification）
+5. 結論（Conclusion）
+6. ハンドブック反映（Handbook）
 
 ---
 
-## ② Official Research
+## 4. 各フェーズの概要
 
-### Purpose
+### 4.1 研究課題（Research Question）
 
-Microsoft公式情報を調査する。
+研究目的を明確にし、仮説および検証対象を定義する。
 
-### Activities
+成果物
 
-- Microsoft Learn
-- Microsoft Docs
-- Microsoft Support
-- Microsoft Build / Ignite
-- Microsoft公式ブログ
-
-Evidence Card（RLS-001）を追加する。
-
-### Exit Criteria
-
-少なくとも1件以上の
-Microsoft公式Evidenceが登録されていること。
+- RQ
 
 ---
 
-## ③ Verification
+### 4.2 エビデンス収集（Evidence）
 
-### Purpose
+研究課題を裏付ける根拠を収集・評価する。
 
-実機検証またはPoCを実施する。
+可能な限り一次情報を利用する。
 
-### Activities
+成果物
 
-- 実機確認
-- Python検証
-- Microsoft 365検証
-- Copilot検証
-- AI Agent検証
-
-Evidence Cardを追加する。
-
-### Exit Criteria
-
-仮説について、
-実機による検証結果が整理されていること。
+- Evidence（E）
 
 ---
 
-## ④ Handbook
+### 4.3 実験（Experiment）
 
-### Purpose
+研究課題およびエビデンスに基づき、実験手順を定義し実施する。
 
-検証結果を再利用可能な知識へ整理する。
+実験は再現可能であることを前提とする。
 
-### Activities
+成果物
 
-- Markdownへ知識を整理
-- Handbookへ反映
-- 関連RQをリンク
-
-### Exit Criteria
-
-第三者が理解できるレベルで
-知識が体系化されていること。
+- LAB
+- 実験ログ
 
 ---
 
-## ⑤ Business Applied
+### 4.4 検証（Verification）
 
-### Purpose
+実験結果を評価し、仮説との一致・相違を確認する。
 
-実務へ適用する。
+成果物
 
-### Activities
-
-- PoC
-- 業務改善
-- 社内展開
-- フィードバック収集
-
-### Exit Criteria
-
-実務で利用され、
-効果または課題が確認されていること。
+- Verification
+- RQ更新（必要に応じて）
 
 ---
 
-## ⑥ Published
+### 4.5 結論（Conclusion）
 
-### Purpose
+研究結果を整理し、得られた知見をまとめる。
 
-社会へ還元する。
+必要に応じてResearch Questionを更新する。
 
-### Activities
+成果物
 
-- GitHub公開
-- Zenn記事
-- LT
-- Community発表
-
-### Exit Criteria
-
-公開可能な形で成果が発信されていること。
+- 更新されたRQ
+- 更新されたEvidence
 
 ---
 
-# 5. GitHub Project Mapping
+### 4.6 ハンドブック反映（Handbook）
 
-| Lifecycle | GitHub Project |
-|------------|----------------|
-| Draft RQ | 💡 Draft RQ |
-| Official Research | 📚 Official Research |
-| Verification | 🧪 Verification |
-| Handbook | 📖 Handbook |
-| Business Applied | 🏢 Business Applied |
-| Published | 🌍 Published |
+研究成果をHandbookへ反映し、再利用可能な知識として蓄積する。
+
+成果物
+
+- Handbook
 
 ---
 
-# 6. Issue Management
+## 5. 運用ルール
 
-Research Questionは
-GitHub IssueをSingle Source of Truthとする。
-
-Issue本文には、
-
-- Background
-- Hypothesis
-- Evidence一覧
-- Current Conclusion
-- Next Action
-
-を管理する。
-
-Evidenceの詳細は
-Issueコメントとして追加する。
+- 研究は必ずResearch Questionから開始する。
+- エビデンスはRLS-001に従って管理する。
+- 実験は再現可能であることを前提とする。
+- 検証結果はResearch Questionへ反映する。
+- 完了した研究はHandbookへ反映する。
 
 ---
 
-# 7. Completion Criteria
+## 6. 関連文書
 
-Research Questionは
-Publishedまで完了した時点で
-IssueをCloseする。
-
-Closed Issueは
-Research Labの知識資産として保存される。
+- RLS-000 ドキュメント作成規約
+- RLS-001 エビデンスカード標準
+- RLS-003 研究環境標準
+- GLOSSARY
 
 ---
 
-# 8. Principles
+## 7. 改訂
 
-Research Lifecycleは
-Research Lab Charterに従う。
+改訂履歴は GitHub の変更履歴を正本とする。
 
-特に以下を遵守する。
-
-- Official First
-- Evidence Before Opinion
-- Verify Whenever Possible
-- Single Source of Truth
-- Reusable Knowledge
-- Business First
-- Share Responsibly
-
----
-
-# 9. Revision History
-
-| Version | Date | Description |
-|----------|------|-------------|
-| 1.0 | 2026-08-05 | Initial Release |
+本規約の改訂は、Research Lab の合意のもとで実施する。
