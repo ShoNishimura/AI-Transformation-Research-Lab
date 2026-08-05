@@ -1,9 +1,31 @@
-M1 Research Environment Ready
+# Research Lab Milestones
 
-M2 First Verified Research
+## M1 Research Environment Ready
 
-M3 Handbook v1.0
+**Date**
 
-M4 Research Theme #10
+2026-08-05
 
-M5 Public Release
+### Goal
+
+Research Environmentを構築する
+
+### Related Projects
+
+- LAB-001 Research Environment Setup
+
+### Status
+
+✅ Completed
+
+---
+
+## M2 First Verified Research
+
+### Related Projects
+
+- LAB-002 RQ-001 Verification
+
+Status
+
+🟡 In Progress
