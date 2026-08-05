@@ -4,11 +4,7 @@ Version: 1.0
 
 ---
 
-## 公開元（Source）
-
----
-
-## 資料タイトル
+## ソース
 
 ---
 
@@ -24,15 +20,11 @@ YYYY-MM-DD（日本時間）
 
 ## 信頼性
 
-A（Microsoft公式）
+A（Microsoft 公式）
 
 ---
 
-## 要約
-
----
-
-## 主要な事実（Key Findings）
+## 要点
 
 - 事実1
 - 事実2
@@ -44,8 +36,14 @@ A（Microsoft公式）
 
 - 仮説を支持する
 - 仮説を修正する
-- 新しいResearch Questionを追加する
+- 新しい Research Question を追加する
 - 影響なし
+
+---
+
+## 次回検証
+
+-
 
 ---
 
