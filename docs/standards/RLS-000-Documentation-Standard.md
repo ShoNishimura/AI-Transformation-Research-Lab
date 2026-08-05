@@ -1,5 +1,9 @@
 # RLS-000 ドキュメント作成規約
 
+Version: 1.0
+
+Status: Approved
+
 ## 1. 目的
 
 Research Lab におけるドキュメントの一貫性、可読性および保守性を確保するため、本規約を定める。
@@ -8,7 +12,7 @@ Research Lab におけるドキュメントの一貫性、可読性および保�
 
 ## 2. 適用範囲
 
-本規約は、Research Lab で管理するすべてのドキュメントに適用する。
+本規約は、Research Lab リポジトリで管理するすべてのドキュメントに適用する。
 
 対象には、Markdownファイル、GitHub Issue、GitHub Discussionsその他これらに準ずる文書を含む。
 
