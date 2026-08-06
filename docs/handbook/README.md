@@ -12,8 +12,7 @@ Handbook は、Research Lab で得られた知見を体系化し、再利用可�
 
 Handbook は、Research Question（RQ）のコピーではない。
 
-Research Question、Evidence、Verification および LAB を通じて得られた知見を横断的に整理し、実務で再利用可能な知識体系として管理する。
-
+Research Question、Evidence、Verification および Research Log を通じて得られた知見を横断的に整理し、実務で再利用可能な知識体系として管理する。
 ---
 
 # 2. 知識体系
