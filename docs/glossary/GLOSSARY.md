@@ -40,8 +40,9 @@ Research Lab における用語の定義を統一し、ドキュメント間の�
 | Research Tenant | Research Tenant | Research Lab 専用に構築した Microsoft 365 テナント。 |
 | 研究課題 | Research Question | 検証対象となる研究テーマ。RQ-XXXで管理する。 |
 | エビデンス | Evidence | 研究課題を裏付ける根拠。E-XXXで管理する。 |
-| 検証 | Verification | 仮説を確認するために実施する実験または評価。 |
 | 実験 | Experiment | 検証のために定義された具体的な実施手順。 |
+| 検証 | Verification | 仮説を確認するために実施する実験または評価。 |
+| 研究記録 | Research Log | 実験、検証、観察および考察を含む研究活動の過程を記録したドキュメント。LAB-XXXで管理する。 |
 | ハンドブック | Handbook | Research Lab の知見を体系的に整理したドキュメント。 |
 | マイルストーン | Milestone | Research Lab の重要な到達点。 |
 | Microsoft Graph | Microsoft Graph | Microsoft 365 データへアクセスするための Microsoft の API およびサービス。 |
