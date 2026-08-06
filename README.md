@@ -34,9 +34,10 @@ Research Lab の目的は、次のとおりです。
 docs/
 ├── charter/      # Research Lab の理念
 ├── glossary/     # 用語集
-├── handbook/     # Handbook・LAB・Milestones
 ├── standards/    # Research Lab 標準
-└── templates/    # 各種テンプレート
+├── templates/    # ドキュメントテンプレート
+├── lab/          # 研究ログ
+└── handbook/     # 知識体系
 ```
 
 ---
