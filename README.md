@@ -32,12 +32,12 @@ Research Lab の目的は、次のとおりです。
 
 ```text
 docs/
-├── charter/      # Research Lab の理念
-├── glossary/     # 用語集
-├── standards/    # Research Lab 標準
-├── templates/    # ドキュメントテンプレート
-├── lab/          # 研究ログ
-└── handbook/     # 知識体系
+├── charter/         # Research Lab の理念
+├── glossary/        # 用語集
+├── standards/       # Research Lab 標準
+├── templates/       # ドキュメントテンプレート
+├── research-log/    # 研究記録
+└── handbook/        # 知識体系
 ```
 
 ---
@@ -55,7 +55,7 @@ Research Lab は、役割ごとにドキュメントを分離して管理しま�
 | 用語集 | 用語定義の正本 | GLOSSARY |
 | Research Question | 研究課題 | RQ-001 |
 | Evidence | 研究の根拠 | E-001 |
-| LAB | 実験・作業記録 | LAB-001 |
+| Research Log | 研究活動および検証過程の記録 | LAB-001 |
 | Handbook | 研究成果の体系化 | HANDBOOK |
 
 ---
@@ -129,10 +129,16 @@ Experiment
 Verification
         │
         ▼
+Research Log
+        │
+        ▼
 Conclusion
         │
         ▼
 Handbook
+        │
+        ▼
+Publication
 ```
 
 ---
