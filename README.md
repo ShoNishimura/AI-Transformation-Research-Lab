@@ -6,13 +6,13 @@
 
 # Research Lab とは
 
-本リポジトリは、**AI Transformation Research Lab** の活動を管理するためのリポジトリです。
+本リポジトリは、AI Transformation Research Lab の研究活動と知識を管理するリポジトリです。
 
 Research Lab では、Microsoft 365 Copilot を中心とした AI 活用に関する知見を、**公式情報**と**再現可能な実験**に基づいて蓄積・検証・体系化します。
 
-研究は、Research Question（RQ）を起点として、Evidence（E）、Experiment、Verification を通じて進められます。
+研究は、Research Question（RQ）を起点として、Evidence（E）を収集し、Verification を通じて検証を行います。
 
-検証によって得られた知見は、Handbook として体系化・蓄積します。
+研究活動は LAB として記録し、検証によって得られた知見は Handbook として体系化・蓄積します。
 
 ---
 
